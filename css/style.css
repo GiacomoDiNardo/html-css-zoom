@@ -71,6 +71,11 @@
     padding-bottom: 10px;
  }
 
+ .bottom-bar a {
+    color: white;
+    text-decoration: none;
+}
+
 .user-tools {
     text-align: center;
     align-items: center;
@@ -104,11 +109,6 @@
     left: 50%;
     top: 10px;
     transform: translatex(-50%);
-}
-
-.bottom-bar a {
-    color: white;
-    text-decoration: none;
 }
 
 .share-icon i {
