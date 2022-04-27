@@ -68,6 +68,7 @@
 
 .bottom-bar i {
     font-size: 25px;
+    padding-bottom: 10px;
  }
 
 .user-tools {
@@ -78,7 +79,7 @@
 }
 
 .user-tools .tools-options i {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .end-meeting {
@@ -93,7 +94,7 @@
     display: inline-block;
     text-decoration: none;
     color: red;
-    padding: 1.2rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .central {
@@ -102,11 +103,12 @@
     position: absolute;
     left: 50%;
     top: 10px;
-    transform: translateX(-50%);
+    transform: translatex(-50%);
 }
 
-.central i {
-    margin-bottom: 10px;
+.bottom-bar a {
+    color: white;
+    text-decoration: none;
 }
 
 .share-icon i {
