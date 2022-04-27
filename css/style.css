@@ -32,3 +32,30 @@
     text-align: center;
     border-radius: 5px;
 }
+
+.users-grid {
+    gap: 5px;
+    padding: 2rem 4rem;
+}
+
+.col {
+    width: calc(100% / 7);
+}
+
+.user {
+    position: relative;
+}
+
+.user img {
+    width: 100%;
+    aspect-ratio: 1/0.5;
+}
+
+.user-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
