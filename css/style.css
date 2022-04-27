@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.upper-bar {
+    justify-content: end;
+    gap: 5px;
+    padding: 5px;
+}
+
+.upper-bar .fa-solid {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.speaker-view, .screen-view {
+    background-color: #4A4A4A;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
